@@ -1,0 +1,14 @@
+{
+  "name": "esui-template",
+  "version": "1.0.0",
+  "description": "基于 esui 的模板转换器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yibuyisheng",
+  "license": "ISC",
+  "dependencies": {
+    "html-parser": "git://github.com/yibuyisheng/html-parser.git"
+  }
+}
