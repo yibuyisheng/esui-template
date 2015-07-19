@@ -1,14 +1,22 @@
 {
-  "name": "esui-template",
-  "version": "1.0.0",
-  "description": "基于 esui 的模板转换器",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "yibuyisheng",
-  "license": "ISC",
-  "dependencies": {
-    "html-parser": "git://github.com/yibuyisheng/html-parser.git"
-  }
+    "name": "esui-template",
+    "version": "1.0.0",
+    "description": "基于 esui 的模板转换器",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "yibuyisheng",
+    "license": "ISC",
+    "dependencies": {
+        "html-parser": "git://github.com/yibuyisheng/html-parser.git"
+    },
+    "edp": {
+        "wwwroot": "/",
+        "depDir": "dep",
+        "srcDir": "src",
+        "loaderAutoConfig": "js,htm,html,tpl,vm,phtml",
+        "loaderUrl": "http://s1.bdstatic.com/r/www/cache/ecom/esl/1-8-2/esl.js",
+        "dependencies": {}
+    }
 }
