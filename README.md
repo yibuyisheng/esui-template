@@ -9,12 +9,12 @@
 可以使用类似于 html 的方式写模板代码：
 
 ```html
-<From action="http://www.baidu.com" method="post">
+<Form action="http://www.baidu.com" method="post">
     <input type="text" name="name" />
     <input type="password" name="password" />
     <Button>提交</Button>
     <Button>重置</Button>
-</From>
+</Form>
 ```
 
 然后这段代码会被转换成：
